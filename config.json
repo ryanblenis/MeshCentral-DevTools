@@ -1,0 +1,18 @@
+{
+  "name": "Dev Tools",
+  "shortName": "devtools",
+  "version": "0.0.1",
+  "author": "Ryan Blenis",
+  "description": "Tools for plugin developers to make testing easier.",
+  "hasAdminPanel": true,
+  "homepage": "https://github.com/ryanblenis/MeshCentral-DevTools",
+  "changelogUrl": "https://raw.githubusercontent.com/ryanblenis/MeshCentral-DevTools/master/changelog.md",
+  "configUrl": "https://raw.githubusercontent.com/ryanblenis/MeshCentral-DevTools/master/config.json",
+  "downloadUrl": "https://github.com/ryanblenis/MeshCentral-DevTools/archive/master.zip",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanblenis/MeshCentral-DevTools.git"
+  },
+  "versionHistoryUrl": "https://api.github.com/repos/ryanblenis/MeshCentral-DevTools/tags",
+  "meshCentralCompat": ">=0.4.4-s"
+}
