@@ -11,11 +11,12 @@ module.exports.devtools = function (parent) {
     var obj = {};
     obj.parent = parent;
     obj.meshServer = parent.parent;
+    obj.VIEWS = __dirname + '/views/';
     
     obj.handleAdminReq = function(req, res, user) {
         if ((user.siteadmin & 0xFFFFFFFF) == 0) { res.sendStatus(401); return; }
         var vars = {};
-        res.render('admin', vars);
+        res.render(obj.VIEWS + 'admin', vars);
     };
     
     obj.serveraction = function(command, myparent, grandparent) {

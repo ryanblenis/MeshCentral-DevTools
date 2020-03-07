@@ -1,6 +1,6 @@
 # MeshCentral-DevTools
 
-*Released: 2019-11-24*
+*Released: 2020-03-07*
 
 Tools to aid plugin developers for the [MeshCentral2](https://github.com/Ylianst/MeshCentral) Project.
 
